@@ -1,0 +1,71 @@
+body{
+    background:#F5E4F5;
+}
+.Login{
+    width: 500px;
+    height: 490px;
+    background: #8854d0;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    .img{
+      padding-top: 50px;  
+      margin-left: 150px;
+    }
+    .Password{
+        margin-left: 50px;
+        margin-top: 30px;
+        .PasswordInput{
+            margin-left: 42px;
+            margin-top:5px; 
+            input{
+                background:#F5E4F5;
+                border:none;
+                width: 350px;
+                text-align: start;
+            }
+        }
+        .Icon{
+            font-size: 1.85rem;
+        }
+    }
+    .Email{
+        margin-left: 50px;
+        margin-top: 60px;
+        .EmailInput{
+            margin-left: 42px;
+            margin-top:5px; 
+            input{
+                background:#F5E4F5;
+                border:none;
+                width: 350px;
+                text-align: start;
+            }
+        }
+        .Icon{
+            font-size: 1.85rem;
+        }
+    }
+    .button{
+        text-align: center;
+        margin-top: 70px;
+        button{
+            border: none;
+            border-radius:7px;
+            background:#F5E4F5;
+            color: #8854d0;
+            font-weight: 900;
+            box-shadow: 2px 5px 10px #111;
+            width: 250px;
+            height: 50px;
+            &:hover{
+                transform: translateY(-5px);
+                transition: all .3s;
+                box-shadow: 2px 5px 20px #111;
+            }
+        }
+    }
+}
+

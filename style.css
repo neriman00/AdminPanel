@@ -1,0 +1,72 @@
+body {
+  background: #F5E4F5;
+}
+
+.Login {
+  width: 500px;
+  height: 490px;
+  background: #8854d0;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.Login .img {
+  padding-top: 50px;
+  margin-left: 150px;
+}
+.Login .Password {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.Login .Password .PasswordInput {
+  margin-left: 42px;
+  margin-top: 5px;
+}
+.Login .Password .PasswordInput input {
+  background: #F5E4F5;
+  border: none;
+  width: 350px;
+  text-align: start;
+}
+.Login .Password .Icon {
+  font-size: 1.85rem;
+}
+.Login .Email {
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.Login .Email .EmailInput {
+  margin-left: 42px;
+  margin-top: 5px;
+}
+.Login .Email .EmailInput input {
+  background: #F5E4F5;
+  border: none;
+  width: 350px;
+  text-align: start;
+}
+.Login .Email .Icon {
+  font-size: 1.85rem;
+}
+.Login .button {
+  text-align: center;
+  margin-top: 70px;
+}
+.Login .button button {
+  border: none;
+  border-radius: 7px;
+  background: #F5E4F5;
+  color: #8854d0;
+  font-weight: 900;
+  box-shadow: 2px 5px 10px #111;
+  width: 250px;
+  height: 50px;
+}
+.Login .button button:hover {
+  transform: translateY(-5px);
+  transition: all .3s;
+  box-shadow: 2px 5px 20px #111;
+}
+
+/*# sourceMappingURL=style.css.map */
